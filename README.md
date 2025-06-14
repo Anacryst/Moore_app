@@ -1,4 +1,4 @@
-# 🚀 Dynamic Landing Page Prototype
+# 🚀 Moore App
 
 > “The Future of AI-Powered Logistics”  
 > A next-gen logistics platform powered by smart routing, real-time data, and adaptive automation.
