@@ -54,24 +54,31 @@ This project is a cloud-hosted prototype designed to demonstrate full-stack engi
 Use SSH to connect to your instance:
 
 ### 3. Install Nginx
+```bash
 sudo apt update
 sudo apt install nginx -y
+```
 
 Copy the config file containing the Public ip address of the Ec2 instance 
+```bash
 sudo vi /etc/nginx/conf.d/moore.conf
-
+```
 
 ### 4. Configure Firewall
+```bash
 sudo ufw allow 'Nginx HTTP'
 sudo ufw enable
+```
 
 ### 5. Deploy web files
+```bash
 mkdir landing-page
 cd landing-page
 
 sudo chmod 644 /home/ubuntu/landing-page/index.html
 sudo chmod 755 /home/ubuntu/landing-page
 sudo chmod o+x /home/ubuntu
+```
 
 ## SCREENSHOTS
 ![image](https://github.com/user-attachments/assets/180b454d-2956-4362-aa02-7b239865fc86)
