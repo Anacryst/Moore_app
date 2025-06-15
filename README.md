@@ -51,4 +51,22 @@ This project is a cloud-hosted prototype designed to demonstrate full-stack engi
 - Instance Type: `t2.micro` (free-tier eligible)
 - Open ports: **22**, **80**
 
-```bash
+### 2. Connect to the Server
+
+Use SSH to connect to your instance:
+
+### 3. Install Nginx
+sudo apt update
+sudo apt install nginx -y
+
+### 4. Configure Firewall
+sudo ufw allow 'Nginx HTTP'
+sudo ufw enable
+
+### 5. Deploy web files
+mkdir landing-page
+cd landing-page
+
+sudo chmod 644 /home/ubuntu/landing-page/index.html
+sudo chmod 755 /home/ubuntu/landing-page
+sudo chmod o+x /home/ubuntu
