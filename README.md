@@ -9,8 +9,6 @@
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Deployment Steps](#deployment-steps)
-- [Dynamic Content](#dynamic-content)
-- [Security](#security)
 - [Screenshots](#screenshots)
 - [Public Access](#public-access)
 
@@ -58,6 +56,10 @@ Use SSH to connect to your instance:
 ### 3. Install Nginx
 sudo apt update
 sudo apt install nginx -y
+
+Copy the config file containing the Public ip address of the Ec2 instance 
+sudo vi /etc/nginx/conf.d/moore.conf
+
 
 ### 4. Configure Firewall
 sudo ufw allow 'Nginx HTTP'
