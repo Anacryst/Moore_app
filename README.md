@@ -26,7 +26,7 @@ This project is a cloud-hosted prototype designed to demonstrate full-stack engi
 
 ## ⚙️ Tech Stack
 
-- **Cloud**: AWS EC2 (Ubuntu 22.04)
+- **Cloud**: AWS EC2 (Ubuntu 22.04) with EIP
 - **Web Server**: Nginx (reverse proxy)
 - **Frontend**: HTML, Tailwind CSS
 
@@ -72,3 +72,10 @@ cd landing-page
 sudo chmod 644 /home/ubuntu/landing-page/index.html
 sudo chmod 755 /home/ubuntu/landing-page
 sudo chmod o+x /home/ubuntu
+
+## SCREENSHOTS
+![image](https://github.com/user-attachments/assets/180b454d-2956-4362-aa02-7b239865fc86)
+
+## Public Access
+http://16.16.16.48
+
